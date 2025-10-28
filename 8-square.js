@@ -13,7 +13,7 @@ else if (value >= 1)
    {
       for (let j = 0; j < value; j++)
       {
-         if (j == value - 1)
+         if (j == value - 1 && i < value - 1)
          {
             output += "x\n";
          }
