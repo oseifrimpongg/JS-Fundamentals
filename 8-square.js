@@ -15,11 +15,11 @@ else if (value >= 1)
       {
          if (j == value - 1 && i < value - 1)
          {
-            output += "x\n";
+            output += "X\n";
          }
          else
          {
-            output += "x";
+            output += "X";
          }
       }
    }
